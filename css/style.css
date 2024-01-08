@@ -1,0 +1,310 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-us {
+    width: 100%;
+    padding: 120px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../image/back\ ground.jpg') no-repeat center top fixed;
+    background-size: cover;
+    min-height: 800px;
+    color: #e4e97e;
+}
+
+.secend-text {
+    color: #ec3127;
+}
+
+.contact-us-form {
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+    padding: 50px 60px;
+}
+
+.contact-us-form h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contact-us-form p {
+    text-align: center;
+    line-height: 1.8em;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dash {
+    border: 2px dashed #e4e97e;
+}
+
+.form-inner {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-parent {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#first-name {
+    margin-right: 5px;
+    background-color: transparent;
+    border: 2px solid #e4e97e;
+}
+
+#last-name {
+    background-color: transparent;
+    border: 2px solid #e4e97e;
+
+}
+
+.FIRST {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+.LAST {
+    position: absolute;
+    top: 100%;
+    left: 80%;
+
+}
+
+.input-email {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.email {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#email {
+    background-color: transparent;
+    width: 57%;
+    border: 2px solid #e4e97e;
+}
+
+.input-number {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.number {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.number-one {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+
+#number-one {
+    margin-right: 5px;
+    background-color: transparent;
+    border: 2px solid #e4e97e;
+    width: 16%;
+}
+
+#number-two {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 2px solid #e4e97e;
+    width: 16%;
+}
+
+#number-there {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 2px solid #e4e97e;
+    width: 18%;
+}
+
+.number-two {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+
+}
+
+.number-there {
+    position: absolute;
+    top: 100%;
+    left: 80%;
+
+}
+
+.input-terms {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.terms {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#terms {
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+
+#term {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+
+}
+
+.input-Quantity {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.Quantity {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#Quantity {
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+
+#Quantitiy {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+
+}
+
+
+.Accounts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.pieces {
+    margin-top: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+}
+
+.piece {
+
+    border: 2px solid #e4e97e;
+    background-color: transparent;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    padding: 5px;
+}
+
+.Account {
+    width: 30%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+
+}
+
+.two {
+    display: flex;
+    border: 2px solid white;
+}
+
+.thirty-up {
+    position: absolute;
+    top: 0%;
+    left: 70%;
+}
+
+.thirty-down {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.inner-PURCHASE {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.PURCHASE {
+    width: 25%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ec3127;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
